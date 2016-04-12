@@ -1,0 +1,78 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(../image/tian.jpg) no-repeat ;
+        background-size:cover;
+	
+}
+.contains{
+	
+	margin:0 50px;
+	border-radius: 5%;
+	margin-top:100px; 
+}
+table{
+	width: 100%;
+    border: 1px solid black;
+	margin:0 auto;
+
+}
+tr{
+	border-bottom: 1px solid #000;
+}
+
+thead{
+	color: #000;
+    background: rgba(255,255,255,0.6);
+	font-weight: bold;
+	border-radius: 10%;
+}
+ td{
+	border-right: 1px solid #000;
+
+}
+tr td:last-child{
+   border:none;
+}
+tbody{
+  background: rgba(25,181,254,0.6); ;
+  color: #fff;
+}
+.table input{
+	display: inline-block;
+	border:none;
+	outline: none;
+	text-align: center;
+	line-height: 100%;
+	background: none;
+}
+#sex{
+   background: #fff;  
+}
+button{
+	margin: 10px;
+}
+.row{
+	margin: 0 auto;
+}
+.col{
+	display: inline-block;
+	padding: 50px;
+}
+.col-lg-2,.col-lg-3{
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+.row>.col:nth-child(2n) button{
+	background: purple;
+	color: white;
+}
+.row>.col:nth-child(2n+1) button{
+	background: orange;
+	color: white;
+}
+
+.contains .row:last-child{
+   margin-top: 10px;
+}
